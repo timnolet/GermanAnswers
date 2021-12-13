@@ -1,0 +1,19 @@
+{
+  "$id": "oozy-sphere-marry-ec738",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "Answers",
+  "repoConfig": {
+    "targetRepoName": "${{answers_targetRepo}}",
+    "templateRepo": "github.com/big-ol-sandbox/timsbackerei.de"
+  },
+  "domain": "${{enter_your_desired_domain}}",
+  "publishingConfig": {
+    "pinnedStagingBranchName": "refs/heads/master",
+    "pinnedProductionBranchName": "refs/heads/master",
+    "stagingCredentials": {
+      "username": "test",
+      "password": "test"
+    }
+  },
+  "features": []
+}

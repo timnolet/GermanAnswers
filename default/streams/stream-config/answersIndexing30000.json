@@ -1,0 +1,25 @@
+{
+  "$id": "answersIndexing30000",
+  "$schema": "https://schema.yext.com/config/streams/stream-config/v1",
+  "source": "knowledgeGraph",
+  "destination": "answers",
+  "fields": [
+    "uid",
+    "id",
+    "timezone",
+    "meta",
+    "savedFilters",
+    "keywords",
+    "name"
+  ],
+  "filter": {
+    "entityTypes": [
+      "product"
+    ]
+  },
+  "localization": {
+    "locales": [
+      "de"
+    ]
+  }
+}
