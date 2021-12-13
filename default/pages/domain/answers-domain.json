@@ -1,7 +1,7 @@
 {
   "$id": "${{enter_your_desired_domain}}",
   "$schema": "https://schema.yext.com/config/pages/domain/v1",
-  "domainName": "timsbackerei.de",
+  "domainName": "${{enter_your_desired_domain}}",
   "autoGenerateSitemap": true,
   "domainAccess": false,
   "pagesCDNAccess": true,
